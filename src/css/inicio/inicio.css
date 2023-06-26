@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inicio{
+    background: rgb(152,152,152);
+    background: linear-gradient(180deg, rgba(152,152,152,1) 0%, rgba(52,52,52,1) 35%, rgba(19,26,28,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f4f4f4;
+}
