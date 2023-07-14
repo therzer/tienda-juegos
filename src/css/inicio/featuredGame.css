@@ -82,12 +82,19 @@
     margin-left: 20px;
 }
 
-.tags>li{
+.tag{
     list-style: none;
     padding: 9px;
     background-color: #646464;
     margin-right: 5px;
     border-radius: 5px;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+.tag:hover{
+    background-color: #4e4e4e;
 }
 
 .right-arrow-alt:host{

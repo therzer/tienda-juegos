@@ -27,7 +27,7 @@ function JuegosDestacados() {
 
                             <div className="tags">
                                 {tag.map((item)=>(
-                                    <li key={item}>{item}</li>
+                                    <button className="tag" key={item}>{item}</button>
                                     
                                 ))}
                             </div>
